@@ -142,6 +142,7 @@ return {
           nls.builtins.diagnostics.fish,
           nls.builtins.formatting.stylua,
           nls.builtins.formatting.shfmt,
+          nls.builtins.formatting.prettierd,
           -- nls.builtins.diagnostics.flake8,
         },
       }
@@ -158,6 +159,7 @@ return {
       ensure_installed = {
         "stylua",
         "shfmt",
+        "prettierd",
         -- "flake8",
       },
     },
