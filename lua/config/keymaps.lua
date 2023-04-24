@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.api.nvim_set_keymap("n", "<leader>v", "<C-v>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("i", ":", ":", { noremap = true, silent = true })
